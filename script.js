@@ -7,9 +7,9 @@ const messages = [
 
 function getPlatformIcon(platform) {
   if (platform === 'Twitch') {
-    return '<img src="https://jmp.sh/BNSad9Qx" alt="Twitch" class="platform-icon">';
+    return '<img src="https://jmp.sh/BNSad9Qx" alt="" class="platform-icon">';
   } else if (platform === 'YouTube') {
-    return '<img src="https://jmp.sh/knoAqL0p" alt="YouTube" class="platform-icon">';
+    return '<img src="https://jmp.sh/knoAqL0p" alt="" class="platform-icon">';
   }
   return '';
 }
